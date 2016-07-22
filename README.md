@@ -2,7 +2,7 @@
 基于AVFoundataion框架实现的一款用于压缩本地视频文件的工具
 
 ####前言
-读取iphone相册本地中的视频文件路劲：assets-library://asset/asset.mov?id=xxxxxxxx-xxxxx-xxxx-xxxx-xxxxxxxxxxx&ext=mov形式
+读取iphone本地相册中的视频文件路径：assets-library://asset/asset.mov?id=xxxxxxxx-xxxxx-xxxx-xxxx-xxxxxxxxxxx&ext=mov形式
 可以使用这种路径进行视频播放等操作，但不能用于视频上传，意思就是不能用于数据传输的载体，因此如果需要上传到服务器，需要读取-压缩-写入沙盒三部。
 
 ####本工具使用
