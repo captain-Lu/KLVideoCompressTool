@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C717C2F41D41B8570045C312 /* KLVideosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C717C2F31D41B8570045C312 /* KLVideosViewController.m */; };
+		C717C2FB1D41B8850045C312 /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = C717C2F81D41B8850045C312 /* UITableView+SDAutoTableViewCellHeight.m */; };
+		C717C2FC1D41B8850045C312 /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C717C2FA1D41B8850045C312 /* UIView+SDAutoLayout.m */; };
+		C717C3001D41B8930045C312 /* KLVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C717C2FE1D41B8930045C312 /* KLVideoCell.m */; };
+		C717C3011D41B8930045C312 /* KLVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C717C2FF1D41B8930045C312 /* KLVideoCell.xib */; };
+		C717C3041D41B8F00045C312 /* KLVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = C717C3031D41B8F00045C312 /* KLVideo.m */; };
+		C717C3071D41BA240045C312 /* camera-bottom-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = C717C3051D41BA240045C312 /* camera-bottom-bg.png */; };
+		C717C3081D41BA240045C312 /* camera-bottom-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C717C3061D41BA240045C312 /* camera-bottom-bg@2x.png */; };
+		C73B94A61D40C772004181F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C73B94A51D40C772004181F4 /* main.m */; };
+		C73B94A91D40C772004181F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C73B94A81D40C772004181F4 /* AppDelegate.m */; };
+		C73B94AC1D40C772004181F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C73B94AB1D40C772004181F4 /* ViewController.m */; };
+		C73B94AF1D40C772004181F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C73B94AD1D40C772004181F4 /* Main.storyboard */; };
+		C73B94B11D40C772004181F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C73B94B01D40C772004181F4 /* Assets.xcassets */; };
+		C73B94B41D40C772004181F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C73B94B21D40C772004181F4 /* LaunchScreen.storyboard */; };
+		C73B94BF1D40C772004181F4 /* KLVideoCompressDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C73B94BE1D40C772004181F4 /* KLVideoCompressDemoTests.m */; };
+		C73B94CA1D40C772004181F4 /* KLVideoCompressDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C73B94C91D40C772004181F4 /* KLVideoCompressDemoUITests.m */; };
+		C73B94E01D40C863004181F4 /* KLVideoCompressTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C73B94DF1D40C863004181F4 /* KLVideoCompressTool.m */; };
+		C73B94E41D40CBCC004181F4 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C73B94E31D40CBCC004181F4 /* NSString+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C73B94BB1D40C772004181F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C73B94991D40C772004181F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C73B94A01D40C772004181F4;
+			remoteInfo = KLVideoCompressDemo;
+		};
+		C73B94C61D40C772004181F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C73B94991D40C772004181F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C73B94A01D40C772004181F4;
+			remoteInfo = KLVideoCompressDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C717C2F21D41B8570045C312 /* KLVideosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLVideosViewController.h; sourceTree = "<group>"; };
+		C717C2F31D41B8570045C312 /* KLVideosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLVideosViewController.m; sourceTree = "<group>"; };
+		C717C2F61D41B8850045C312 /* SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAutoLayout.h; sourceTree = "<group>"; };
+		C717C2F71D41B8850045C312 /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		C717C2F81D41B8850045C312 /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		C717C2F91D41B8850045C312 /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		C717C2FA1D41B8850045C312 /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		C717C2FD1D41B8930045C312 /* KLVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLVideoCell.h; sourceTree = "<group>"; };
+		C717C2FE1D41B8930045C312 /* KLVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLVideoCell.m; sourceTree = "<group>"; };
+		C717C2FF1D41B8930045C312 /* KLVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KLVideoCell.xib; sourceTree = "<group>"; };
+		C717C3021D41B8F00045C312 /* KLVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLVideo.h; sourceTree = "<group>"; };
+		C717C3031D41B8F00045C312 /* KLVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLVideo.m; sourceTree = "<group>"; };
+		C717C3051D41BA240045C312 /* camera-bottom-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-bottom-bg.png"; sourceTree = "<group>"; };
+		C717C3061D41BA240045C312 /* camera-bottom-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-bottom-bg@2x.png"; sourceTree = "<group>"; };
+		C73B94A11D40C772004181F4 /* KLVideoCompressDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLVideoCompressDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73B94A51D40C772004181F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C73B94A71D40C772004181F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C73B94A81D40C772004181F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C73B94AA1D40C772004181F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C73B94AB1D40C772004181F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C73B94AE1D40C772004181F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C73B94B01D40C772004181F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C73B94B31D40C772004181F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C73B94B51D40C772004181F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C73B94BA1D40C772004181F4 /* KLVideoCompressDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLVideoCompressDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73B94BE1D40C772004181F4 /* KLVideoCompressDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLVideoCompressDemoTests.m; sourceTree = "<group>"; };
+		C73B94C01D40C772004181F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C73B94C51D40C772004181F4 /* KLVideoCompressDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLVideoCompressDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73B94C91D40C772004181F4 /* KLVideoCompressDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLVideoCompressDemoUITests.m; sourceTree = "<group>"; };
+		C73B94CB1D40C772004181F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C73B94DE1D40C863004181F4 /* KLVideoCompressTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLVideoCompressTool.h; sourceTree = "<group>"; };
+		C73B94DF1D40C863004181F4 /* KLVideoCompressTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLVideoCompressTool.m; sourceTree = "<group>"; };
+		C73B94E21D40CBCC004181F4 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		C73B94E31D40CBCC004181F4 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C73B949E1D40C772004181F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73B94B71D40C772004181F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73B94C21D40C772004181F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C717C2F51D41B8850045C312 /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				C717C2F61D41B8850045C312 /* SDAutoLayout.h */,
+				C717C2F71D41B8850045C312 /* UITableView+SDAutoTableViewCellHeight.h */,
+				C717C2F81D41B8850045C312 /* UITableView+SDAutoTableViewCellHeight.m */,
+				C717C2F91D41B8850045C312 /* UIView+SDAutoLayout.h */,
+				C717C2FA1D41B8850045C312 /* UIView+SDAutoLayout.m */,
+			);
+			path = SDAutoLayout;
+			sourceTree = "<group>";
+		};
+		C717C3091D41BCA40045C312 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C717C2F21D41B8570045C312 /* KLVideosViewController.h */,
+				C717C2F31D41B8570045C312 /* KLVideosViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		C717C30A1D41BCB30045C312 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C717C2FD1D41B8930045C312 /* KLVideoCell.h */,
+				C717C2FE1D41B8930045C312 /* KLVideoCell.m */,
+				C717C2FF1D41B8930045C312 /* KLVideoCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C717C30B1D41BCBD0045C312 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C717C3021D41B8F00045C312 /* KLVideo.h */,
+				C717C3031D41B8F00045C312 /* KLVideo.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C73B94981D40C772004181F4 = {
+			isa = PBXGroup;
+			children = (
+				C73B94A31D40C772004181F4 /* KLVideoCompressDemo */,
+				C73B94BD1D40C772004181F4 /* KLVideoCompressDemoTests */,
+				C73B94C81D40C772004181F4 /* KLVideoCompressDemoUITests */,
+				C73B94A21D40C772004181F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C73B94A21D40C772004181F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C73B94A11D40C772004181F4 /* KLVideoCompressDemo.app */,
+				C73B94BA1D40C772004181F4 /* KLVideoCompressDemoTests.xctest */,
+				C73B94C51D40C772004181F4 /* KLVideoCompressDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C73B94A31D40C772004181F4 /* KLVideoCompressDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C73B94D91D40C7C2004181F4 /* Classes */,
+				C73B94D81D40C79B004181F4 /* Other */,
+				C73B94D71D40C78B004181F4 /* XIB */,
+				C73B94AA1D40C772004181F4 /* ViewController.h */,
+				C73B94AB1D40C772004181F4 /* ViewController.m */,
+				C73B94B01D40C772004181F4 /* Assets.xcassets */,
+				C73B94B51D40C772004181F4 /* Info.plist */,
+				C73B94A41D40C772004181F4 /* Supporting Files */,
+			);
+			path = KLVideoCompressDemo;
+			sourceTree = "<group>";
+		};
+		C73B94A41D40C772004181F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C717C3051D41BA240045C312 /* camera-bottom-bg.png */,
+				C717C3061D41BA240045C312 /* camera-bottom-bg@2x.png */,
+				C73B94A51D40C772004181F4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C73B94BD1D40C772004181F4 /* KLVideoCompressDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C73B94BE1D40C772004181F4 /* KLVideoCompressDemoTests.m */,
+				C73B94C01D40C772004181F4 /* Info.plist */,
+			);
+			path = KLVideoCompressDemoTests;
+			sourceTree = "<group>";
+		};
+		C73B94C81D40C772004181F4 /* KLVideoCompressDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C73B94C91D40C772004181F4 /* KLVideoCompressDemoUITests.m */,
+				C73B94CB1D40C772004181F4 /* Info.plist */,
+			);
+			path = KLVideoCompressDemoUITests;
+			sourceTree = "<group>";
+		};
+		C73B94D71D40C78B004181F4 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				C73B94AD1D40C772004181F4 /* Main.storyboard */,
+				C73B94B21D40C772004181F4 /* LaunchScreen.storyboard */,
+			);
+			name = XIB;
+			sourceTree = "<group>";
+		};
+		C73B94D81D40C79B004181F4 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C73B94A71D40C772004181F4 /* AppDelegate.h */,
+				C73B94A81D40C772004181F4 /* AppDelegate.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		C73B94D91D40C7C2004181F4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C717C30B1D41BCBD0045C312 /* Model */,
+				C717C30A1D41BCB30045C312 /* View */,
+				C717C3091D41BCA40045C312 /* ViewController */,
+				C73B94DA1D40C7CD004181F4 /* LIbrary */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		C73B94DA1D40C7CD004181F4 /* LIbrary */ = {
+			isa = PBXGroup;
+			children = (
+				C717C2F51D41B8850045C312 /* SDAutoLayout */,
+				C73B94DD1D40C82E004181F4 /* KLVideoCompressTool */,
+			);
+			name = LIbrary;
+			sourceTree = "<group>";
+		};
+		C73B94DD1D40C82E004181F4 /* KLVideoCompressTool */ = {
+			isa = PBXGroup;
+			children = (
+				C73B94DE1D40C863004181F4 /* KLVideoCompressTool.h */,
+				C73B94DF1D40C863004181F4 /* KLVideoCompressTool.m */,
+				C73B94E21D40CBCC004181F4 /* NSString+Extension.h */,
+				C73B94E31D40CBCC004181F4 /* NSString+Extension.m */,
+			);
+			path = KLVideoCompressTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C73B94A01D40C772004181F4 /* KLVideoCompressDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C73B94CE1D40C772004181F4 /* Build configuration list for PBXNativeTarget "KLVideoCompressDemo" */;
+			buildPhases = (
+				C73B949D1D40C772004181F4 /* Sources */,
+				C73B949E1D40C772004181F4 /* Frameworks */,
+				C73B949F1D40C772004181F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KLVideoCompressDemo;
+			productName = KLVideoCompressDemo;
+			productReference = C73B94A11D40C772004181F4 /* KLVideoCompressDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C73B94B91D40C772004181F4 /* KLVideoCompressDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C73B94D11D40C772004181F4 /* Build configuration list for PBXNativeTarget "KLVideoCompressDemoTests" */;
+			buildPhases = (
+				C73B94B61D40C772004181F4 /* Sources */,
+				C73B94B71D40C772004181F4 /* Frameworks */,
+				C73B94B81D40C772004181F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C73B94BC1D40C772004181F4 /* PBXTargetDependency */,
+			);
+			name = KLVideoCompressDemoTests;
+			productName = KLVideoCompressDemoTests;
+			productReference = C73B94BA1D40C772004181F4 /* KLVideoCompressDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C73B94C41D40C772004181F4 /* KLVideoCompressDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C73B94D41D40C772004181F4 /* Build configuration list for PBXNativeTarget "KLVideoCompressDemoUITests" */;
+			buildPhases = (
+				C73B94C11D40C772004181F4 /* Sources */,
+				C73B94C21D40C772004181F4 /* Frameworks */,
+				C73B94C31D40C772004181F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C73B94C71D40C772004181F4 /* PBXTargetDependency */,
+			);
+			name = KLVideoCompressDemoUITests;
+			productName = KLVideoCompressDemoUITests;
+			productReference = C73B94C51D40C772004181F4 /* KLVideoCompressDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C73B94991D40C772004181F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = aiitec;
+				TargetAttributes = {
+					C73B94A01D40C772004181F4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C73B94B91D40C772004181F4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C73B94A01D40C772004181F4;
+					};
+					C73B94C41D40C772004181F4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C73B94A01D40C772004181F4;
+					};
+				};
+			};
+			buildConfigurationList = C73B949C1D40C772004181F4 /* Build configuration list for PBXProject "KLVideoCompressDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C73B94981D40C772004181F4;
+			productRefGroup = C73B94A21D40C772004181F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C73B94A01D40C772004181F4 /* KLVideoCompressDemo */,
+				C73B94B91D40C772004181F4 /* KLVideoCompressDemoTests */,
+				C73B94C41D40C772004181F4 /* KLVideoCompressDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C73B949F1D40C772004181F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73B94B41D40C772004181F4 /* LaunchScreen.storyboard in Resources */,
+				C73B94B11D40C772004181F4 /* Assets.xcassets in Resources */,
+				C717C3071D41BA240045C312 /* camera-bottom-bg.png in Resources */,
+				C717C3011D41B8930045C312 /* KLVideoCell.xib in Resources */,
+				C73B94AF1D40C772004181F4 /* Main.storyboard in Resources */,
+				C717C3081D41BA240045C312 /* camera-bottom-bg@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73B94B81D40C772004181F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73B94C31D40C772004181F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C73B949D1D40C772004181F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C717C3041D41B8F00045C312 /* KLVideo.m in Sources */,
+				C717C2FB1D41B8850045C312 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+				C73B94E41D40CBCC004181F4 /* NSString+Extension.m in Sources */,
+				C717C2FC1D41B8850045C312 /* UIView+SDAutoLayout.m in Sources */,
+				C717C3001D41B8930045C312 /* KLVideoCell.m in Sources */,
+				C73B94E01D40C863004181F4 /* KLVideoCompressTool.m in Sources */,
+				C73B94AC1D40C772004181F4 /* ViewController.m in Sources */,
+				C73B94A91D40C772004181F4 /* AppDelegate.m in Sources */,
+				C73B94A61D40C772004181F4 /* main.m in Sources */,
+				C717C2F41D41B8570045C312 /* KLVideosViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73B94B61D40C772004181F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73B94BF1D40C772004181F4 /* KLVideoCompressDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73B94C11D40C772004181F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73B94CA1D40C772004181F4 /* KLVideoCompressDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C73B94BC1D40C772004181F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C73B94A01D40C772004181F4 /* KLVideoCompressDemo */;
+			targetProxy = C73B94BB1D40C772004181F4 /* PBXContainerItemProxy */;
+		};
+		C73B94C71D40C772004181F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C73B94A01D40C772004181F4 /* KLVideoCompressDemo */;
+			targetProxy = C73B94C61D40C772004181F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C73B94AD1D40C772004181F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C73B94AE1D40C772004181F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C73B94B21D40C772004181F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C73B94B31D40C772004181F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C73B94CC1D40C772004181F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C73B94CD1D40C772004181F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C73B94CF1D40C772004181F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KLVideoCompressDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiitec.KLVideoCompressDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C73B94D01D40C772004181F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KLVideoCompressDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiitec.KLVideoCompressDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C73B94D21D40C772004181F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KLVideoCompressDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiitec.KLVideoCompressDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KLVideoCompressDemo.app/KLVideoCompressDemo";
+			};
+			name = Debug;
+		};
+		C73B94D31D40C772004181F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KLVideoCompressDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiitec.KLVideoCompressDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KLVideoCompressDemo.app/KLVideoCompressDemo";
+			};
+			name = Release;
+		};
+		C73B94D51D40C772004181F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KLVideoCompressDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiitec.KLVideoCompressDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KLVideoCompressDemo;
+			};
+			name = Debug;
+		};
+		C73B94D61D40C772004181F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KLVideoCompressDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiitec.KLVideoCompressDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KLVideoCompressDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C73B949C1D40C772004181F4 /* Build configuration list for PBXProject "KLVideoCompressDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C73B94CC1D40C772004181F4 /* Debug */,
+				C73B94CD1D40C772004181F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C73B94CE1D40C772004181F4 /* Build configuration list for PBXNativeTarget "KLVideoCompressDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C73B94CF1D40C772004181F4 /* Debug */,
+				C73B94D01D40C772004181F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C73B94D11D40C772004181F4 /* Build configuration list for PBXNativeTarget "KLVideoCompressDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C73B94D21D40C772004181F4 /* Debug */,
+				C73B94D31D40C772004181F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C73B94D41D40C772004181F4 /* Build configuration list for PBXNativeTarget "KLVideoCompressDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C73B94D51D40C772004181F4 /* Debug */,
+				C73B94D61D40C772004181F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C73B94991D40C772004181F4 /* Project object */;
+}
